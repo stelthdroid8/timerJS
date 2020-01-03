@@ -39,7 +39,7 @@ class Timer {
     }
     pause = () => {
         clearInterval(this.intervalID);
-        console.log('paused the timer');
+        // console.log('paused the timer');
     }
 
     get timeRemaining() {
